@@ -315,6 +315,10 @@ class DailySummary:
     # ... other fields for nutrition totals, TDEE results, etc.
 ```
 
+### Unit Tests
+
+Each `.py` file should contain a `if __name__ == "__main__":` block that tests the classes, methods, and functions in the file (excepting main.py).
+
 ### Schema
 
 ```sqlite3

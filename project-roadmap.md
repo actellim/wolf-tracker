@@ -11,12 +11,12 @@
     - [x] Create the complete file and folder structure (`main.py`, `app/`, etc.).
     - [x] Create the `config.ini` file with default paths.
 
-- **[ ] Phase 1: Database and Setup**
-    - [ ] Implement the `DatabaseManager` class in `app/database.py`.
-    - [ ] Implement the `.connect()`, `.close()`, and `.create_tables()` methods. The `create_tables` method should execute the entire final schema.
-    - [ ] Implement the `setup` command in `main.py`.
-    - [ ] Implement `ConsoleUI.prompt_for_user_profile()` using basic `input()` for now.
-    - [ ] Implement `DatabaseManager.create_or_update_user_profile()`.
+- **[x] Phase 1: Database and Setup**
+    - [x] Implement the `DatabaseManager` class in `app/database.py`.
+    - [x] Implement the `.connect()`, `.close()`, and `.create_tables()` methods. The `create_tables` method should execute the entire final schema.
+    - [x] Implement the `setup` command in `main.py`.
+    - [x] Implement `ConsoleUI.prompt_for_user_profile()` using basic `input()` for now.
+    - [x] Implement `DatabaseManager.create_or_update_user_profile()`.
 
 - **[ ] Phase 2: Core Routines**
     - [ ] Implement the argument parsing in `main.py` for `morning` and `evening` commands.
