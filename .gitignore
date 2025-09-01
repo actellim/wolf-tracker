@@ -1,33 +1,19 @@
-# --- Python virtual environment ---
-# Never commit the virtual environment folder
-/venv/
+# Python virtual environment
+venv/
 
-# --- Python artifacts ---
-# Caches and compiled files
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# --- Application Data ---
-# NEVER commit the user's personal database or temporary journal files
+# Database files
 *.db
-*.db-journal*
+*.sqlite3
 
-# --- Generated Outputs and Backups ---
-# Ignore any backups or exported data files
-/backups/
-*.csv
-*.bak
+# Test artifacts
+test_config.ini
 
-# --- Editor/IDE configuration files ---
-# A good practice to ignore common editor-specific folders
-.vscode/
-.idea/
-*.swp
-.idx/
-
-# --- OS-generated files ---
-# Ignore common system files from macOS and Windows
+# OS-specific files
 .DS_Store
-Thumbs.db
+
+# Our dev env config
+.idx/

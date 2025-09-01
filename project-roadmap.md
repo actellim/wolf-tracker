@@ -19,16 +19,16 @@
     - [x] Implement `DatabaseManager.create_or_update_user_profile()`.
 
 - **[ ] Phase 2: Core Routines**
-    - [ ] Implement the argument parsing in `main.py` for `morning` and `evening` commands.
-    - [ ] **Morning Routine:**
-        - [ ] Implement `DatabaseManager.get_yesterdays_intentions()`.
-        - [ ] Implement `ConsoleUI.run_morning_prompts()` (using basic `input()`).
-        - [ ] Implement `DatabaseManager.save_morning_log()`.
-    - [ ] **Evening Routine (MVP Version):**
-        - [ ] Implement `ConsoleUI.run_evening_prompts()` (using basic `input()`).
-        - [ ] For nutrition, the prompt should be a simple loop: "Enter food name:", "Enter calories:". This will call `DatabaseManager.add_food_item()` and `log_nutrition_entry()`.
-        - [ ] For workouts, the prompt should be simple: "Did you work out? [y/n]". If yes, ask "Which workout?" and log a static entry (the compositional logic will be built later).
-        - [ ] Implement `DatabaseManager.save_evening_log()`.
+    - [x] Implement the argument parsing in `main.py` for `morning` and `evening` commands.
+    - [x] **Morning Routine:**
+        - [x] Implement `DatabaseManager.get_yesterdays_intentions()`.
+        - [x] Implement `ConsoleUI.run_morning_prompts()` (using basic `input()`).
+        - [x] Implement `DatabaseManager.save_morning_log()`.
+    - [x] **Evening Routine (MVP Version):**
+        - [x] Implement `ConsoleUI.run_evening_prompts()` (using basic `input()`).
+        - [x] For nutrition, the prompt should be a simple loop: "Enter food name:", "Enter calories:". This will call `DatabaseManager.add_food_item()` and `log_nutrition_entry()`.
+        - [x] For workouts, the prompt should be simple: "Did you work out? [y/n]". If yes, ask "Which workout?" and log a static entry (the compositional logic will be built later).
+        - [x] Implement `DatabaseManager.save_evening_log()`.
 
 - **[ ] Phase 3: Reporting & Automation**
     - [ ] Implement `DatabaseManager.get_all_data_for_date()`.
